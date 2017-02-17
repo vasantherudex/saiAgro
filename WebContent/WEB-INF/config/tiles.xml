@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+   <tiles-definitions>
+    <definition name="base.definition" template="/WEB-INF/views/mainTemplate.jsp">
+        <put-attribute name="title" value=""></put-attribute>
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>
+        <put-attribute name="menu" value="/WEB-INF/views/menu.jsp"></put-attribute>
+        <put-attribute name="body" value=""></put-attribute>
+        <put-attribute name="footer" value="/WEB-INF/views/footer.jsp"></put-attribute>
+    </definition>
+ 
+    <definition name="accounts" extends="base.definition">
+        <put-attribute name="title" value="FMS || Accounts"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/accounts.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="accountsList" extends="base.definition">
+        <put-attribute name="title" value="FMS || AccountsList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/accountsList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="technical" extends="base.definition">
+        <put-attribute name="title" value="FMS || Technical"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/technical.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="technicalList" extends="base.definition">
+        <put-attribute name="title" value="FMS || TechnicalList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/technicalList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="catagory" extends="base.definition">
+        <put-attribute name="title" value="FMS || Catagory"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/catagory.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="catagoryList" extends="base.definition">
+        <put-attribute name="title" value="FMS || CatagoryList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/catagoryList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="packing" extends="base.definition">
+        <put-attribute name="title" value="FMS || Packing"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/packing.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="packingList" extends="base.definition">
+        <put-attribute name="title" value="FMS || PackingList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/packingList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="accountType" extends="base.definition">
+        <put-attribute name="title" value="FMS || Account Type"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/accountType.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="accountTypeList" extends="base.definition">
+        <put-attribute name="title" value="FMS || AccountTypeList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/accountTypeList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="district" extends="base.definition">
+        <put-attribute name="title" value="FMS || District"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/district.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="districtList" extends="base.definition">
+        <put-attribute name="title" value="FMS || DistrictList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/districtList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="state" extends="base.definition">
+        <put-attribute name="title" value="FMS || State"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/state.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="stateList" extends="base.definition">
+        <put-attribute name="title" value="FMS || StateList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/stateList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="routeCode" extends="base.definition">
+        <put-attribute name="title" value="FMS || RouteCode"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/routeCode.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="routeCodeList" extends="base.definition">
+        <put-attribute name="title" value="FMS || RouteCodeList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/routeCodeList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="journalVouchersEntry" extends="base.definition">
+        <put-attribute name="title" value="FMS || JournalVouchersEntry"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/journalVouchersEntry.jsp"></put-attribute>
+    </definition>
+
+    <definition name="productOpeningStockEntry" extends="base.definition">
+        <put-attribute name="title" value="FMS || ProductOpeningStockEntry"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/productOpeningStockEntry.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="productOpeningStockEntryList" extends="base.definition">
+        <put-attribute name="title" value="FMS || ProductOpeningStockEntryList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/productOpeningStockList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="productInformationMaster" extends="base.definition">
+        <put-attribute name="title" value="FMS || ProductInformationMaster"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/productInformationMaster.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="productInformationMasterList" extends="base.definition">
+        <put-attribute name="title" value="FMS || ProductInformationMasterList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/productInformationMasterList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="productList" extends="base.definition">
+        <put-attribute name="title" value="FMS || ProductsList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/productList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="index" extends="base.definition">
+        <put-attribute name="title" value="Index"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/index.jsp"></put-attribute>
+    </definition>
+ 
+    <definition name="loginPage" extends="base.definition">
+        <put-attribute name="title" value="Agro || Login"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/loginPage.jsp"></put-attribute>
+        <put-attribute name="header" value=" "></put-attribute>
+        <put-attribute name="footer" value=" "></put-attribute>
+        <put-attribute name="menu" value=" "></put-attribute>
+    </definition>
+ 
+    <definition name="materialReceivedEntry" extends="base.definition">
+        <put-attribute name="title" value="Agro || MaterialReceivedEntry"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/materialReceivedEntry.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="materialReceivedEntryList" extends="base.definition">
+        <put-attribute name="title" value="Agro || MaterialReceivedEntryList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/materialRecievedEntryList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="purchaseInvoiceEntry" extends="base.definition">
+        <put-attribute name="title" value="Agro || PurchaseInvoiceEntry"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/purchaseInvoiceEntry.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="purchaseInvoiceEntryList" extends="base.definition">
+        <put-attribute name="title" value="Agro || PurchaseInvoiceEntryList"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/purchaseInvoiceEntryList.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="interOfficeMemo" extends="base.definition">
+        <put-attribute name="title" value="Akshara || InterOfficeMemo"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/interOfficeMemo.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="adviceForMaterialIssue" extends="base.definition">
+        <put-attribute name="title" value="Akshara || AdviceForMaterialIssue"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/adviceForMaterialIssue.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="materialIndent" extends="base.definition">
+        <put-attribute name="title" value="Akshara || Material Indent"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/materialIndent.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="quotation" extends="base.definition">
+        <put-attribute name="title" value="Akshara || Quotation"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/quotation.jsp"></put-attribute>
+    </definition>
+    
+     <definition name="performanceReport" extends="base.definition">
+        <put-attribute name="title" value="Akshara || Performance "></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/performanceReport.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="installationReport" extends="base.definition">
+        <put-attribute name="title" value="Akshara || Installation Report"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/installationReport.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="deliveryChallan" extends="base.definition">
+        <put-attribute name="title" value="Akshara || Delivery Challan"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/deliveryChallan.jsp"></put-attribute>
+    </definition>
+    
+    
+</tiles-definitions>
